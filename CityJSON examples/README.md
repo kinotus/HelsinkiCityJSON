@@ -1,8 +1,8 @@
 # Example CityJSON
 
-## Source data, old CityGML 2 from 2017: https://3d.hel.ninja/data/citygml/
-
-CRS is EPSG:3879
+## Source data
+- old CityGML 2 from 2017: https://3d.hel.ninja/data/citygml/
+- CRS is EPSG:3879
 
 ## Processing
 - Using https://github.com/citygml4j/citygml-tools
