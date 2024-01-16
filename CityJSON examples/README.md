@@ -13,13 +13,17 @@
 
 ## Example CityJSON files
 - CRS is set manually for the alternative file with suffix
-- 
 
-## Tested with
-- Use https://ninja.cityjson.org/
-- [B](https://github.com/cityjson/Up3date)https://github.com/cityjson/Up3date also works ok in Blender 4.0.1
-- FME 2022.2.2 and 2024 inspectors
-- Known problem; QGIS 3.34 with cityjson-plugin fails to load this example data.
+## Tested and ok
+- https://ninja.cityjson.org/
+- (https://github.com/cityjson/Up3date)https://github.com/cityjson/Up3date also works ok in Blender 4.0.1
+- FME 2022.2.2 and 2024.0 inspectors on Mac
+- Azul 1.1.1 Mac https://github.com/tudelft3d/azul
 
+## Known incompatibilities
+- CityJSON Loader-plugin 0.8.1 on QGIS 3.34.2 fails to load these examples.
+- Rhino 8.3 Mac / Grasshopper
+  
 ## TODO
+- Get new "Official CityJSON" from Helsinki 3DCityDB.
 - Set bounds
